@@ -1,0 +1,1792 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="AccountRequired" xml:space="preserve">
+    <value>Cuenta requerida</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="AddDisplay" xml:space="preserve">
+    <value>Añadir pantalla</value>
+  </data>
+  <data name="AddMediaAlternative" xml:space="preserve">
+    <value>Añadir archivo multimedia alternativo</value>
+  </data>
+  <data name="AnErrorOccured" xml:space="preserve">
+    <value>Ha ocurrido un error durante el proceso de solicitud</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>Ninguno</value>
+  </data>
+  <data name="ApplicationSettings" xml:space="preserve">
+    <value>Ajustes de la aplicación</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="AreYouSureDeleteCanvas" xml:space="preserve">
+    <value>¿Seguro que quieres eliminar este canvas?</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisFrame" xml:space="preserve">
+    <value>¿Seguro que quieres eliminar este marco?</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisLevel" xml:space="preserve">
+    <value>¿Seguro que quieres eliminar este nivel?</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisLocation" xml:space="preserve">
+    <value>¿Seguro que quieres eliminar esta ubicación?</value>
+  </data>
+  <data name="AreYousureYouWantToDeleteThisMedia" xml:space="preserve">
+    <value>ADVERTENCIA: Borrar el archivo multimedia también borrará las imágenes ¿Seguro que quieres eliminar este archivo?</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisPanel" xml:space="preserve">
+    <value>¿Seguro que quieres eliminar este panel?</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisTemplate" xml:space="preserve">
+    <value>¿Seguro que quieres eliminar esta plantilla?</value>
+  </data>
+  <data name="AreYouSureYouWantToRemoveLocationFromThisFrame" xml:space="preserve">
+    <value>¿Seguro que quieres eliminar la ubicación de este marco?</value>
+  </data>
+  <data name="AreYouSureYouWantToRemoveThisDisplay" xml:space="preserve">
+    <value>¿Seguro que quieres eliminar esta pantalla?</value>
+  </data>
+  <data name="AreYouSureYouWantToUnlinkThisMediaAlternative" xml:space="preserve">
+    <value>¿Seguro que quieres desvincular archivo multimedia alternativo?</value>
+  </data>
+  <data name="AssociatedDisplays" xml:space="preserve">
+    <value>Pantallas asociadas</value>
+  </data>
+  <data name="AssociatedFrames" xml:space="preserve">
+    <value>Imágenes asociadas</value>
+  </data>
+  <data name="AssociatedLocations" xml:space="preserve">
+    <value>Ubicaciones asociadas</value>
+  </data>
+  <data name="AssociatedPanels" xml:space="preserve">
+    <value>Paneles asociados</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="AutoLoop" xml:space="preserve">
+    <value>Auto-bucle</value>
+  </data>
+  <data name="AzureAccount" xml:space="preserve">
+    <value>Cuenta de Microsoft Azure</value>
+  </data>
+  <data name="AzureAccountRequired" xml:space="preserve">
+    <value>Cuenta de Azure requerida</value>
+  </data>
+  <data name="AzureAccounts" xml:space="preserve">
+    <value>Cuentas de Microsoft Azure</value>
+  </data>
+  <data name="AzureClientId" xml:space="preserve">
+    <value>ID de cliente</value>
+  </data>
+  <data name="AzureClientIdRequired" xml:space="preserve">
+    <value>ID de cliente requerida</value>
+  </data>
+  <data name="AzureClientSecret" xml:space="preserve">
+    <value>Contraseña de cliente</value>
+  </data>
+  <data name="AzureClientSecretRequired" xml:space="preserve">
+    <value>Contraseña de cliente requerida</value>
+  </data>
+  <data name="AzureRegisterPowerBi" xml:space="preserve">
+    <value>Registrar aplicación Power BI</value>
+  </data>
+  <data name="AzureResource" xml:space="preserve">
+    <value>Azure Resource</value>
+  </data>
+  <data name="AzureResourceRequired" xml:space="preserve">
+    <value>Azure Resource requerido</value>
+  </data>
+  <data name="AzureResource_PowerBi" xml:space="preserve">
+    <value>Power BI</value>
+  </data>
+  <data name="AzureTenantId" xml:space="preserve">
+    <value>Tenant ID</value>
+  </data>
+  <data name="AzureTenantIdRequired" xml:space="preserve">
+    <value>Tenant ID requerido</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Fondo</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Color de fondo</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Imagen de fondo</value>
+  </data>
+  <data name="BackPreviousPage" xml:space="preserve">
+    <value>Volver a la página anterior</value>
+  </data>
+  <data name="BackToDetails" xml:space="preserve">
+    <value>Volver a detalles</value>
+  </data>
+  <data name="BackToVideoDetails" xml:space="preserve">
+    <value>Volver a detalles de vídeo</value>
+  </data>
+  <data name="BaseURL" xml:space="preserve">
+    <value>Base URL</value>
+  </data>
+  <data name="BaseURLRequired" xml:space="preserve">
+    <value>BaseURL requerido</value>
+  </data>
+  <data name="BeginsOn" xml:space="preserve">
+    <value>Comienza en</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Cuerpo</value>
+  </data>
+  <data name="BookingSubject" xml:space="preserve">
+    <value>Objeto de la reserva</value>
+  </data>
+  <data name="BrowseDisplay" xml:space="preserve">
+    <value>Visualización de pantalla</value>
+  </data>
+  <data name="BrowserNoVideoSupport" xml:space="preserve">
+    <value>Su navegador no soporta este tipo de marco, por favor actualízelo</value>
+  </data>
+  <data name="Bytes" xml:space="preserve">
+    <value>Bytes</value>
+  </data>
+  <data name="C" xml:space="preserve">
+    <value>ºC</value>
+  </data>
+  <data name="CacheInterval" xml:space="preserve">
+    <value>Expiración de la caché</value>
+  </data>
+  <data name="CacheMode" xml:space="preserve">
+    <value>Modo de la caché</value>
+  </data>
+  <data name="CacheMode_None" xml:space="preserve">
+    <value>Ninguno</value>
+  </data>
+  <data name="CacheMode_Sliding" xml:space="preserve">
+    <value>Deslizante</value>
+  </data>
+  <data name="CachingOptions" xml:space="preserve">
+    <value>Opciones de caché</value>
+  </data>
+  <data name="Canvas" xml:space="preserve">
+    <value>Canvas</value>
+  </data>
+  <data name="CanvasDetails" xml:space="preserve">
+    <value>Detalles de Canvas</value>
+  </data>
+  <data name="Canvases" xml:space="preserve">
+    <value>Canvases</value>
+  </data>
+  <data name="CanvasPositionSizePixels" xml:space="preserve">
+    <value>Posición: {0}, {1}, Tamaño: {2} x {3} píxeles</value>
+  </data>
+  <data name="CanvasRequired" xml:space="preserve">
+    <value>Canvas requerido</value>
+  </data>
+  <data name="CanvasSizePixelsSec" xml:space="preserve">
+    <value>Tamaño: {0} x {1} píxeles, {2}: {3} seg.</value>
+  </data>
+  <data name="ChangeDisplayed" xml:space="preserve">
+    <value>Cambio visualizado</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Reloj</value>
+  </data>
+  <data name="ClockFrameDetails" xml:space="preserve">
+    <value>Detalles del marco del reloj</value>
+  </data>
+  <data name="ClockType" xml:space="preserve">
+    <value>Tipo de reloj</value>
+  </data>
+  <data name="ClockTypeRequired" xml:space="preserve">
+    <value>Tipo de reloj requerido</value>
+  </data>
+  <data name="ClockType_Analog" xml:space="preserve">
+    <value>Analógico</value>
+  </data>
+  <data name="ClockType_Digital" xml:space="preserve">
+    <value>Digital</value>
+  </data>
+  <data name="ClockType_Text" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="ConfigureNewReportServerAccount" xml:space="preserve">
+    <value>Configurar la nueva cuenta del servidor de informes</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Contenido</value>
+  </data>
+  <data name="ContentRequired" xml:space="preserve">
+    <value>Contenido requerido</value>
+  </data>
+  <data name="ContentType_Picture" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="ContentType_Video" xml:space="preserve">
+    <value>Vídeo</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="CopyCanvas" xml:space="preserve">
+    <value>Copiar Canvas</value>
+  </data>
+  <data name="CopyFrameLocations" xml:space="preserve">
+    <value>Copiar todas las ubicaciones del marco</value>
+  </data>
+  <data name="CopyFrames" xml:space="preserve">
+    <value>Copiar todos los marcos</value>
+  </data>
+  <data name="CopyPanels" xml:space="preserve">
+    <value>Copiar todos los paneles</value>
+  </data>
+  <data name="CouldNotBeResolved" xml:space="preserve">
+    <value>No se ha podido resolver</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Crear</value>
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>Crear nuevo</value>
+  </data>
+  <data name="CreateNewAzureAccount" xml:space="preserve">
+    <value>Crear nueva cuenta de Microsoft Azure</value>
+  </data>
+  <data name="CreateNewCanvas" xml:space="preserve">
+    <value>Crear nuevo Canvas</value>
+  </data>
+  <data name="CreateNewClockFrame" xml:space="preserve">
+    <value>Crear nuevo marco de reloj</value>
+  </data>
+  <data name="CreateNewDisplay" xml:space="preserve">
+    <value>Crear nueva pantalla</value>
+  </data>
+  <data name="CreateNewExchangeAccount" xml:space="preserve">
+    <value>Crear nueva cuenta de Microsoft Exchange</value>
+  </data>
+  <data name="CreateNewFrame" xml:space="preserve">
+    <value>Crear nuevo marco</value>
+  </data>
+  <data name="CreateNewHtmlFrame" xml:space="preserve">
+    <value>Crear nuevo marco HTML</value>
+  </data>
+  <data name="CreateNewLocation" xml:space="preserve">
+    <value>Crear nueva ubicación</value>
+  </data>
+  <data name="CreateNewMemoFrame" xml:space="preserve">
+    <value>Crear nuevo marco memo</value>
+  </data>
+  <data name="CreateNewOauthAccount" xml:space="preserve">
+    <value>Crear nueva cuenta Open Authorization (OAuth)</value>
+  </data>
+  <data name="CreateNewPanel" xml:space="preserve">
+    <value>Crear nuevo panel</value>
+  </data>
+  <data name="CreateNewPictureFrame" xml:space="preserve">
+    <value>Crear nuevo marco de imagen</value>
+  </data>
+  <data name="CreateNewReportFrame" xml:space="preserve">
+    <value>Crear nuevo marco de informe</value>
+  </data>
+  <data name="CreateNewReportServerAccount" xml:space="preserve">
+    <value>Crear nueva cuenta del servidor de informes</value>
+  </data>
+  <data name="CreateNewTemplate" xml:space="preserve">
+    <value>Crear nuevo marco de plantilla</value>
+  </data>
+  <data name="CreateNewVideoFrame" xml:space="preserve">
+    <value>Crear nuevo marco de vídeo</value>
+  </data>
+  <data name="CreateNewWeatherFrame" xml:space="preserve">
+    <value>Crear nuevo marco de tiempo</value>
+  </data>
+  <data name="CreateNewYoutubeFrame" xml:space="preserve">
+    <value>Crear nuevo marco de YouTube</value>
+  </data>
+  <data name="CreateOrganizationLevel" xml:space="preserve">
+    <value>Crear nivel de organización
+</value>
+  </data>
+  <data name="CreateOrganizationLocation" xml:space="preserve">
+    <value>Crear ubicación de organización</value>
+  </data>
+  <data name="CreateOutlookFrame" xml:space="preserve">
+    <value>Crear marco de Outlook</value>
+  </data>
+  <data name="CreatePowerbiFrame" xml:space="preserve">
+    <value>Crear marco de Microsoft Power BI</value>
+  </data>
+  <data name="Cultre" xml:space="preserve">
+    <value>Cultura</value>
+  </data>
+  <data name="CurrentlyDisplayed" xml:space="preserve">
+    <value>Actualmente en pantalla</value>
+  </data>
+  <data name="CurrentMaximumAllowedSizeForImageFilesIsSetTo" xml:space="preserve">
+    <value>El tamaño máximo permitido actualmente para los archivos de imagen está fijado en</value>
+  </data>
+  <data name="CurrentMaximumAllowedSizeForVideoFilesIsSetTo" xml:space="preserve">
+    <value>El tamaño máximo permitido actualmente para los archivos de vídeo está fijado en</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Tablero</value>
+  </data>
+  <data name="Dashboard_FramesByType" xml:space="preserve">
+    <value>Marcos por tipo</value>
+  </data>
+  <data name="Dashboard_NumberOfActiveFrames" xml:space="preserve">
+    <value>Marcos activos</value>
+  </data>
+  <data name="Dashboard_NumberOfExpiredFrames" xml:space="preserve">
+    <value>Marcos expirados</value>
+  </data>
+  <data name="Dashboard_NumberOfFrames" xml:space="preserve">
+    <value>Todos los marcos</value>
+  </data>
+  <data name="Dashboard_NumberOfPendingFrames" xml:space="preserve">
+    <value>Marcos pendientes</value>
+  </data>
+  <data name="Dashboard_PreviousSevenDays" xml:space="preserve">
+    <value>Últimos 7 días</value>
+  </data>
+  <data name="Dashboard_TopFiveContent" xml:space="preserve">
+    <value>Contenido Top 5</value>
+  </data>
+  <data name="Dashboard_TotalDuration" xml:space="preserve">
+    <value>Duración total (Horas)</value>
+  </data>
+  <data name="DateCreated" xml:space="preserve">
+    <value>Fecha de creación</value>
+  </data>
+  <data name="DateFormat" xml:space="preserve">
+    <value>Formato de fecha</value>
+  </data>
+  <data name="DateTimeExpected" xml:space="preserve">
+    <value>Valor de fecha esperado</value>
+  </data>
+  <data name="DecimalRequired" xml:space="preserve">
+    <value>Por favor introduzca un número decimal válido</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="DeleteAzureAccount" xml:space="preserve">
+    <value>Eliminar cuenta Microsoft Azure</value>
+  </data>
+  <data name="DeleteCanvas" xml:space="preserve">
+    <value>Eliminar canvas</value>
+  </data>
+  <data name="DeleteClockFrame" xml:space="preserve">
+    <value>Eliminar Marco de reloj </value>
+  </data>
+  <data name="DeleteExchangeAccount" xml:space="preserve">
+    <value>Eliminar cuenta de intercambio </value>
+  </data>
+  <data name="DeleteHtmlFrame" xml:space="preserve">
+    <value>Eliminar marco Html</value>
+  </data>
+  <data name="DeleteMedia" xml:space="preserve">
+    <value>Eliminar Media</value>
+  </data>
+  <data name="DeleteMemoFrame" xml:space="preserve">
+    <value>Eliminar nota del marco </value>
+  </data>
+  <data name="DeleteOauthAccount" xml:space="preserve">
+    <value>Eliminar Cuenta de Autorizacion Abierta</value>
+  </data>
+  <data name="DeleteOrganizationLevel" xml:space="preserve">
+    <value>Eliminar Organización por nivel</value>
+  </data>
+  <data name="DeleteOrganizationLocation" xml:space="preserve">
+    <value>Eliminar ubicación de la organización</value>
+  </data>
+  <data name="DeleteOutlookFrame" xml:space="preserve">
+    <value>Eliminar Marco de Outlook</value>
+  </data>
+  <data name="DeletePanel" xml:space="preserve">
+    <value>Eliminar Panel</value>
+  </data>
+  <data name="DeletePictureFrame" xml:space="preserve">
+    <value>Eliminar Marco de Imagen</value>
+  </data>
+  <data name="DeletePowerbiFrame" xml:space="preserve">
+    <value>Eliminar Marco Microsoft Power BI</value>
+  </data>
+  <data name="DeleteReportFrame" xml:space="preserve">
+    <value>Eliminar Marco de informe</value>
+  </data>
+  <data name="DeleteReportServerAccount" xml:space="preserve">
+    <value>Eliminar cuenta del servidor de informes</value>
+  </data>
+  <data name="DeleteTemplate" xml:space="preserve">
+    <value>Eliminar plantilla</value>
+  </data>
+  <data name="DeleteVideoFrame" xml:space="preserve">
+    <value>Eliminar fotograma de vídeo</value>
+  </data>
+  <data name="DeleteWeatherFrame" xml:space="preserve">
+    <value>Eliminar Marco de Tiempo</value>
+  </data>
+  <data name="DeleteYoutubeFrame" xml:space="preserve">
+    <value>Eliminar Marco de Youtube</value>
+  </data>
+  <data name="DeletingAzureAccountWillCauseDeletionOfAllRelatedContentAreYouSureYouWantToContinue" xml:space="preserve">
+    <value>La eliminación de la cuenta de Microsoft Azure provocará la eliminación de todo el contenido relacionado. ¿Desea continuar?</value>
+  </data>
+  <data name="DeletingExchangeAccountWillCauseDeletionOfAllRelatedContentAreYouSureYouWantToContinue" xml:space="preserve">
+    <value>Eliminar la cuenta de Microsoft Exchange provocará la eliminación de todo el contenido relacionado. ¿Estás seguro de que quieres continuar?</value>
+  </data>
+  <data name="DeletingOauthAccountAreYouSureYouWantToContinue" xml:space="preserve">
+    <value>La eliminación de la cuenta de OAuth puede hacer que el contenido quede inoperable. ¿Estás seguro de que quieres continuar?</value>
+  </data>
+  <data name="DeletingReportServerAccountWillCauseDeletionOfAllRelatedContentAreYouSureYouWantToContinue" xml:space="preserve">
+    <value>Eliminar la cuenta del servidor de informes provocará la eliminación de todo el contenido relacionado. Estás seguro de que quieres continuar?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="Designate" xml:space="preserve">
+    <value>Designada</value>
+  </data>
+  <data name="DesignatedLocations" xml:space="preserve">
+    <value>Ubicaciones Designadas</value>
+  </data>
+  <data name="DesignateLocation" xml:space="preserve">
+    <value>Ubicacion Designada</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalles</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>Mostrar</value>
+  </data>
+  <data name="DisplayAutoLoadMode_Cookie" xml:space="preserve">
+    <value>Cookie de seguimiento</value>
+  </data>
+  <data name="DisplayAutoLoadMode_IP" xml:space="preserve">
+    <value>Dirección IP estática</value>
+  </data>
+  <data name="DisplayMonkey" xml:space="preserve">
+    <value>Display Monkey</value>
+  </data>
+  <data name="Displays" xml:space="preserve">
+    <value>Pantallas</value>
+  </data>
+  <data name="DisplayType" xml:space="preserve">
+    <value>Tipo de Pantalla</value>
+  </data>
+  <data name="Domain" xml:space="preserve">
+    <value>Dominio</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Duración</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="EditApplicationSetting" xml:space="preserve">
+    <value>Editar la Configuración de la Aplicación</value>
+  </data>
+  <data name="EditAzureAccount" xml:space="preserve">
+    <value>Editar Cuenta de Microsoft Azure</value>
+  </data>
+  <data name="EditCanvas" xml:space="preserve">
+    <value>Editar Canvas</value>
+  </data>
+  <data name="EditClockFrame" xml:space="preserve">
+    <value>Editar marco del reloj</value>
+  </data>
+  <data name="EditDisplay" xml:space="preserve">
+    <value>Editar Pantalla</value>
+  </data>
+  <data name="EditExchangeAccount" xml:space="preserve">
+    <value>Editar cuenta de Microsoft Exchange</value>
+  </data>
+  <data name="EditFullScreenPanel" xml:space="preserve">
+    <value>Editar panel de pantalla completa</value>
+  </data>
+  <data name="EditHtmlFrame" xml:space="preserve">
+    <value>Editar marco HTML</value>
+  </data>
+  <data name="EditMedia" xml:space="preserve">
+    <value>Editar archivo multimedia</value>
+  </data>
+  <data name="EditMemoFrame" xml:space="preserve">
+    <value>Editar marco de nota</value>
+  </data>
+  <data name="EditOauthAccount" xml:space="preserve">
+    <value>Editar cuenta de autorización abierta (OAuth)</value>
+  </data>
+  <data name="EditOrganizationLevel" xml:space="preserve">
+    <value>Editar nivel de organización</value>
+  </data>
+  <data name="EditOrganizationLocation" xml:space="preserve">
+    <value>Editar ubicación de la organización</value>
+  </data>
+  <data name="EditOutlookFrame" xml:space="preserve">
+    <value>Editar marco de Outlook</value>
+  </data>
+  <data name="EditPanel" xml:space="preserve">
+    <value>Panel de edición</value>
+  </data>
+  <data name="EditPictureFrame" xml:space="preserve">
+    <value>Editar marco de imagen</value>
+  </data>
+  <data name="EditPowerbiFrame" xml:space="preserve">
+    <value>Editar marco de Microsoft Power BI</value>
+  </data>
+  <data name="EditReportFrame" xml:space="preserve">
+    <value>Editar marco de informe</value>
+  </data>
+  <data name="EditReportServerAccount" xml:space="preserve">
+    <value>Editar cuenta del servidor de informes</value>
+  </data>
+  <data name="EditTemplate" xml:space="preserve">
+    <value>Editar plantilla </value>
+  </data>
+  <data name="EditVideoFrame" xml:space="preserve">
+    <value>Editar marco de video</value>
+  </data>
+  <data name="EditWeatherFrame" xml:space="preserve">
+    <value>Editar marco meteorológico</value>
+  </data>
+  <data name="EditYoutubeFrame" xml:space="preserve">
+    <value>Editar marco de YouTube</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>Debe ser una dirección de correo electrónico válida</value>
+  </data>
+  <data name="EndsOn" xml:space="preserve">
+    <value>Expira el</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorContentTypeNotImplemented" xml:space="preserve">
+    <value>Tipo de contenido de error no implementado</value>
+  </data>
+  <data name="ErrorDetails" xml:space="preserve">
+    <value>Detalles de Error</value>
+  </data>
+  <data name="ErrorLength" xml:space="preserve">
+    <value>Duración de la ventana emergente de error (use 0 para suprimir errores)</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Mensaje</value>
+  </data>
+  <data name="ErrorNoWeatherDataWasRetrieved" xml:space="preserve">
+    <value>No se han recuperado datos. Especifique los ajustes de GEO y temperatura en la ubicación de visualización.</value>
+  </data>
+  <data name="ErrorSource" xml:space="preserve">
+    <value>Fuente</value>
+  </data>
+  <data name="ErrorStack" xml:space="preserve">
+    <value>Pila de errores</value>
+  </data>
+  <data name="EwsVersion" xml:space="preserve">
+    <value> Version de EWS</value>
+  </data>
+  <data name="EwsVersionRequired" xml:space="preserve">
+    <value>Se requiere la versión de EWS</value>
+  </data>
+  <data name="EWS_Sensitivity_Confidential" xml:space="preserve">
+    <value>Confidencial</value>
+  </data>
+  <data name="EWS_Sensitivity_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="EWS_Sensitivity_Personal" xml:space="preserve">
+    <value>Personal</value>
+  </data>
+  <data name="EWS_Sensitivity_Private" xml:space="preserve">
+    <value>Privado</value>
+  </data>
+  <data name="EWS_ShowAs_Busy" xml:space="preserve">
+    <value>Ocupado/Ocupada</value>
+  </data>
+  <data name="EWS_ShowAs_Free" xml:space="preserve">
+    <value>Gratis</value>
+  </data>
+  <data name="EWS_ShowAs_NoData" xml:space="preserve">
+    <value>No especificado</value>
+  </data>
+  <data name="EWS_ShowAs_Oof" xml:space="preserve">
+    <value>Fuera de la oficina</value>
+  </data>
+  <data name="EWS_ShowAs_Tentative" xml:space="preserve">
+    <value>Tentativa</value>
+  </data>
+  <data name="EWS_ShowAs_Wew" xml:space="preserve">
+    <value>trabajando en otro lugar</value>
+  </data>
+  <data name="ExchangeAccount" xml:space="preserve">
+    <value>Cuenta de intercambio</value>
+  </data>
+  <data name="ExchangeAccountRequired" xml:space="preserve">
+    <value>Se requiere cuenta de intercambio</value>
+  </data>
+  <data name="ExchangeAccounts" xml:space="preserve">
+    <value>Microsoft Exchange accounts</value>
+  </data>
+  <data name="F" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="FadeLength" xml:space="preserve">
+    <value>Duración de la transición de marco</value>
+  </data>
+  <data name="FailedToObtainToken" xml:space="preserve">
+    <value>No se pudo obtener el token</value>
+  </data>
+  <data name="FileFormat" xml:space="preserve">
+    <value>Formato de archivo</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="Frame" xml:space="preserve">
+    <value>Marco</value>
+  </data>
+  <data name="Frames" xml:space="preserve">
+    <value>Marcos</value>
+  </data>
+  <data name="FrameTemplates" xml:space="preserve">
+    <value>Plantillas de marco</value>
+  </data>
+  <data name="FrameType" xml:space="preserve">
+    <value>Tipo de marco</value>
+  </data>
+  <data name="FrameTypeRequired" xml:space="preserve">
+    <value>Se requiere el tipo de marco</value>
+  </data>
+  <data name="FromArea" xml:space="preserve">
+    <value>De Area</value>
+  </data>
+  <data name="FromAreaOrServerDefault" xml:space="preserve">
+    <value>- Desde Área o Servidor Predeterminado -</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>Pantalla Completa</value>
+  </data>
+  <data name="FullScreens" xml:space="preserve">
+    <value>Pantallas completas</value>
+  </data>
+  <data name="GeneralOptions" xml:space="preserve">
+    <value>Opciones generales</value>
+  </data>
+  <data name="GeoTranslationHasFailed" xml:space="preserve">
+    <value>La traducción de GEO ha fallado. Intente guardar de nuevo.</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hola</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="HelpVersion" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="Host" xml:space="preserve">
+    <value>dirección IP</value>
+  </data>
+  <data name="Html" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="HtmlFrameDetails" xml:space="preserve">
+    <value>Detalles del marco HTML</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="IDRequired" xml:space="preserve">
+    <value>Se requiere identificación</value>
+  </data>
+  <data name="InformationContentDisplayed" xml:space="preserve">
+    <value>Información/Contenido mostrado</value>
+  </data>
+  <data name="IntegerRequired" xml:space="preserve">
+    <value>Por favor ingrese un número entero válido</value>
+  </data>
+  <data name="IsNotSupported" xml:space="preserve">
+    <value>No Soportado</value>
+  </data>
+  <data name="KB" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Clave</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Etiqueta</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Latitud</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Izquierda</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="LevelRequired" xml:space="preserve">
+    <value>Se requiere nivel</value>
+  </data>
+  <data name="Levels" xml:space="preserve">
+    <value>Niveles</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Enlace</value>
+  </data>
+  <data name="LinkedMedia" xml:space="preserve">
+    <value>Enlace de Medio</value>
+  </data>
+  <data name="LinkedMediaAlternatives" xml:space="preserve">
+    <value>Enlace a archivos multimedia alternativos</value>
+  </data>
+  <data name="LinkMediaAlternative" xml:space="preserve">
+    <value>Enlace a archivos multimedia</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Ubicación</value>
+  </data>
+  <data name="LocationName" xml:space="preserve">
+    <value>Nombre del lugar</value>
+  </data>
+  <data name="LocationNameRequired" xml:space="preserve">
+    <value>El nombre de la ubicación es obligatorio</value>
+  </data>
+  <data name="LocationRequired" xml:space="preserve">
+    <value>Se requiere ubicación</value>
+  </data>
+  <data name="Locations" xml:space="preserve">
+    <value>Ubicaciones</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>Longitud</value>
+  </data>
+  <data name="Mailbox" xml:space="preserve">
+    <value>Buzón</value>
+  </data>
+  <data name="MailboxRequired" xml:space="preserve">
+    <value>Se requiere buzón</value>
+  </data>
+  <data name="MaxIdleInterval" xml:space="preserve">
+    <value>Intervalo de recurrencia máximo</value>
+  </data>
+  <data name="MaxLengthExceeded" xml:space="preserve">
+    <value>Se excedió la longitud máxima del campo</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="MediaDetails" xml:space="preserve">
+    <value>Detalles  Multimedia</value>
+  </data>
+  <data name="MediaOptions" xml:space="preserve">
+    <value>Opciones  multimedia</value>
+  </data>
+  <data name="MediaSource" xml:space="preserve">
+    <value>Fuente de archivos multimedia</value>
+  </data>
+  <data name="MediaType" xml:space="preserve">
+    <value>Tipos de multimedia</value>
+  </data>
+  <data name="Memo" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="MemoFrameDetails" xml:space="preserve">
+    <value>Detalles del marco de notas</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>min.</value>
+  </data>
+  <data name="Missing" xml:space="preserve">
+    <value>Desaparecido/a</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>Se requiere Nombre</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Nunca</value>
+  </data>
+  <data name="NewFrame" xml:space="preserve">
+    <value>Nuevo Marco</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Noticias</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="NoArea" xml:space="preserve">
+    <value>- Sin Área -</value>
+  </data>
+  <data name="NoBackground" xml:space="preserve">
+    <value>- Sin fondo -</value>
+  </data>
+  <data name="NoCursor" xml:space="preserve">
+    <value>Ocultar puntero del mouse</value>
+  </data>
+  <data name="NoLinkedAlternatives" xml:space="preserve">
+    <value>Sin alternativas vinculadas</value>
+  </data>
+  <data name="NoScroll" xml:space="preserve">
+    <value>Ocultar las barras de desplazamiento de la ventana</value>
+  </data>
+  <data name="NoteForVarietyOfBrowsersVideoFramesCanBeLinkedToMultipleAlternativeMediaStreamsToSelectMultipleFilesPushAndHoldShiftOrCtrl" xml:space="preserve">
+    <value>Nota: para una variedad de navegadores, los marcos de video se pueden vincular a múltiples flujos de archivos multimedia alternativos, para seleccionar múltiples archivos, presione y mantenga presionado [Shift] o [Ctrl].</value>
+  </data>
+  <data name="NoteToSelectMultipleFilesPushAndHoldShiftOrCtrl" xml:space="preserve">
+    <value>Nota: para seleccionar varios archivos, mantenga pulsada la tecla [Shift] o [Ctrl].</value>
+  </data>
+  <data name="NotSet" xml:space="preserve">
+    <value>No establecido</value>
+  </data>
+  <data name="NotSupported" xml:space="preserve">
+    <value>No soportado</value>
+  </data>
+  <data name="OauthAccount" xml:space="preserve">
+    <value>Cuenta de autorización abierta (OAuth)</value>
+  </data>
+  <data name="OauthAccounts" xml:space="preserve">
+    <value>Cuentas de autorización abierta (OAuth)</value>
+  </data>
+  <data name="OauthAppId" xml:space="preserve">
+    <value>ID de aplicación</value>
+  </data>
+  <data name="OauthAppIdRequired" xml:space="preserve">
+    <value>Se requiere identificación de la aplicación</value>
+  </data>
+  <data name="OauthClientId" xml:space="preserve">
+    <value>ID de cliente (clave de consumidor)</value>
+  </data>
+  <data name="OauthClientIdRequired" xml:space="preserve">
+    <value>Se requiere ID de cliente</value>
+  </data>
+  <data name="OauthClientSecret" xml:space="preserve">
+    <value>Secreto del cliente (Secreto del consumidor)</value>
+  </data>
+  <data name="OauthClientSecretRequired" xml:space="preserve">
+    <value>Se requiere el secreto del cliente</value>
+  </data>
+  <data name="OauthProvider" xml:space="preserve">
+    <value>Proveedor de servicio</value>
+  </data>
+  <data name="OauthProviderRequired" xml:space="preserve">
+    <value>Se requiere proveedor de servicios</value>
+  </data>
+  <data name="OauthProvider_Yahoo" xml:space="preserve">
+    <value>Yahoo</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organización</value>
+  </data>
+  <data name="OrganizationLevelDetails" xml:space="preserve">
+    <value>Detalles del nivel de organización</value>
+  </data>
+  <data name="OrganizationLevels" xml:space="preserve">
+    <value>Niveles de organización</value>
+  </data>
+  <data name="OrganizationLocationDetails" xml:space="preserve">
+    <value>Detalles de la ubicación de la organización</value>
+  </data>
+  <data name="OrganizationLocations" xml:space="preserve">
+    <value>Ubicaciones de la organización</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Otro/a</value>
+  </data>
+  <data name="Outlook" xml:space="preserve">
+    <value>Outlook</value>
+  </data>
+  <data name="OutlookAllowReserve" xml:space="preserve">
+    <value>Permitir reserva rápida</value>
+  </data>
+  <data name="OutlookEwsVersion_Exchange2007_SP1" xml:space="preserve">
+    <value>Exchange 2007 SP1</value>
+  </data>
+  <data name="OutlookEwsVersion_Exchange2010" xml:space="preserve">
+    <value>Exchange 2010</value>
+  </data>
+  <data name="OutlookEwsVersion_Exchange2010_SP1" xml:space="preserve">
+    <value>Exchange 2010 SP1</value>
+  </data>
+  <data name="OutlookEwsVersion_Exchange2010_SP2" xml:space="preserve">
+    <value>Exchange 2010 SP2</value>
+  </data>
+  <data name="OutlookEwsVersion_Exchange2013" xml:space="preserve">
+    <value>Exchange 2013</value>
+  </data>
+  <data name="OutlookEwsVersion_Exchange2013_SP1" xml:space="preserve">
+    <value>Exchange 2013 SP1</value>
+  </data>
+  <data name="OutlookFrameDetails" xml:space="preserve">
+    <value>Detalles del marco de Outlook</value>
+  </data>
+  <data name="OutlookMode_Today" xml:space="preserve">
+    <value>Hoy</value>
+  </data>
+  <data name="OutlookPrivacy_All" xml:space="preserve">
+    <value>Todos los eventos incluidos</value>
+  </data>
+  <data name="OutlookPrivacy_NoClassified" xml:space="preserve">
+    <value>Eventos clasificados excluidos</value>
+  </data>
+  <data name="OutlookPrivacy_ProtectSubject" xml:space="preserve">
+    <value>Ocultar asunto de eventos clasificados</value>
+  </data>
+  <data name="OutlookShowAs" xml:space="preserve">
+    <value>Mostrar como</value>
+  </data>
+  <data name="OutlookUrl" xml:space="preserve">
+    <value>EWS Url (opcional)</value>
+  </data>
+  <data name="Outlook_AvailableForHrsMin" xml:space="preserve">
+    <value>Disponible durante {0} h {1} min</value>
+  </data>
+  <data name="Outlook_AvailableForMin" xml:space="preserve">
+    <value>Disponible por {0} min</value>
+  </data>
+  <data name="Outlook_AvailableUntil" xml:space="preserve">
+    <value>Disponible hasta {0}</value>
+  </data>
+  <data name="Outlook_BookingImpossible" xml:space="preserve">
+    <value>El recurso no está disponible para reservar en este momento</value>
+  </data>
+  <data name="Outlook_BookingOnDemand" xml:space="preserve">
+    <value>Reserva tu pedido</value>
+  </data>
+  <data name="Outlook_BookingSent" xml:space="preserve">
+    <value>La solicitud de reserva ha sido enviada</value>
+  </data>
+  <data name="Outlook_Duration" xml:space="preserve">
+    <value>Duración</value>
+  </data>
+  <data name="Outlook_Ends" xml:space="preserve">
+    <value>Ends</value>
+  </data>
+  <data name="Outlook_EndsInHrsMin" xml:space="preserve">
+    <value>Finaliza</value>
+  </data>
+  <data name="Outlook_EndsInMin" xml:space="preserve">
+    <value>Finaliza en {0} min</value>
+  </data>
+  <data name="Outlook_Event" xml:space="preserve">
+    <value>Evento</value>
+  </data>
+  <data name="Outlook_HrsMin" xml:space="preserve">
+    <value>{0} hrs {1} min</value>
+  </data>
+  <data name="Outlook_Min" xml:space="preserve">
+    <value>{0} min</value>
+  </data>
+  <data name="Outlook_NoEventsToday" xml:space="preserve">
+    <value>No hay eventos hoy</value>
+  </data>
+  <data name="Outlook_Sensitivity" xml:space="preserve">
+    <value>Sensibilidad</value>
+  </data>
+  <data name="Outlook_Starts" xml:space="preserve">
+    <value>Empieza</value>
+  </data>
+  <data name="Panel" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="PanelDetails" xml:space="preserve">
+    <value>Detalles del panel</value>
+  </data>
+  <data name="PanelRequired" xml:space="preserve">
+    <value>Se requiere el Panel</value>
+  </data>
+  <data name="Panels" xml:space="preserve">
+    <value>Paneles</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="PictureFrameDetails" xml:space="preserve">
+    <value>Detalles del marco de la imagen</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Imagenes</value>
+  </data>
+  <data name="Pixels" xml:space="preserve">
+    <value>Pixeles</value>
+  </data>
+  <data name="PlayMuted" xml:space="preserve">
+    <value>Silenciar</value>
+  </data>
+  <data name="PleaseSelectFilesToUploadFirst" xml:space="preserve">
+    <value>Por favor, seleccione el(los) archivo(s) para cargar primero</value>
+  </data>
+  <data name="PleaseSelectFileToUploadFirst" xml:space="preserve">
+    <value>Seleccione el archivo para cargar primero</value>
+  </data>
+  <data name="PollInterval" xml:space="preserve">
+    <value>Intervalo de actualización del estado de visualización de fondo</value>
+  </data>
+  <data name="PositionSize" xml:space="preserve">
+    <value>Posición: {0}, {1}, Tamaño: {2} x {3}</value>
+  </data>
+  <data name="PositiveDecimalRequired" xml:space="preserve">
+    <value>Por favor ingrese un número decimal positivo</value>
+  </data>
+  <data name="PositiveIntegerRequired" xml:space="preserve">
+    <value>Ingrese un número entero positivo válido</value>
+  </data>
+  <data name="Powerbi" xml:space="preserve">
+    <value>Power BI</value>
+  </data>
+  <data name="PowerbiDashboard" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="PowerbiDefaultGroup" xml:space="preserve">
+    <value>Espacio de trabajo predeterminado</value>
+  </data>
+  <data name="PowerBiFrameDetails" xml:space="preserve">
+    <value>Detalles del marco Microsoft Power BI</value>
+  </data>
+  <data name="PowerbiGroup" xml:space="preserve">
+    <value>espacio de trabajo</value>
+  </data>
+  <data name="PowerbiReport" xml:space="preserve">
+    <value>Informe</value>
+  </data>
+  <data name="PowerbiSelectDashboard" xml:space="preserve">
+    <value>- Seleccionar tablero -</value>
+  </data>
+  <data name="PowerbiSelectReport" xml:space="preserve">
+    <value>- Seleccionar informe -</value>
+  </data>
+  <data name="PowerbiSelectTile" xml:space="preserve">
+    <value>- Seleccionar mosaico -</value>
+  </data>
+  <data name="PowerbiSelectType" xml:space="preserve">
+    <value>- Seleccione tipo -</value>
+  </data>
+  <data name="PowerbiTile" xml:space="preserve">
+    <value>Mosaico</value>
+  </data>
+  <data name="PowerbiType" xml:space="preserve">
+    <value>Tipo de visualización</value>
+  </data>
+  <data name="PowerbiTypeRequired" xml:space="preserve">
+    <value>El tipo de visualización es obligatorio</value>
+  </data>
+  <data name="PowerbiType_Report" xml:space="preserve">
+    <value>Informe</value>
+  </data>
+  <data name="PowerbiType_Tile" xml:space="preserve">
+    <value>Tipo de Mosaico</value>
+  </data>
+  <data name="PowerbiUrl" xml:space="preserve">
+    <value>URL de visualización</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Privacidad</value>
+  </data>
+  <data name="PrivacyRequired" xml:space="preserve">
+    <value>Privacidad requerida</value>
+  </data>
+  <data name="ProvideAccountPassword" xml:space="preserve">
+    <value>Por favor, introduzca la contraseña de la cuenta</value>
+  </data>
+  <data name="ReadyTimeout" xml:space="preserve">
+    <value>Tiempo de espera del evento Frame Ready</value>
+  </data>
+  <data name="RecycleTime" xml:space="preserve">
+    <value>Tiempo de autoreciclado</value>
+  </data>
+  <data name="RederMode" xml:space="preserve">
+    <value>Modo de renderizado</value>
+  </data>
+  <data name="RegisteredDisplays" xml:space="preserve">
+    <value>Pantallas registradas</value>
+  </data>
+  <data name="RegisterThisDisplay" xml:space="preserve">
+    <value>Registrar pantalla</value>
+  </data>
+  <data name="Register_EnterNameForThisDisplay" xml:space="preserve">
+    <value>Introduzca un nombre para la pantalla</value>
+  </data>
+  <data name="Register_Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Register_NetworkAddress" xml:space="preserve">
+    <value>Dirección de red</value>
+  </data>
+  <data name="Register_NoneFound" xml:space="preserve">
+    <value>No encontrado</value>
+  </data>
+  <data name="Register_Register" xml:space="preserve">
+    <value>Registrado</value>
+  </data>
+  <data name="Register_ThisDisplay" xml:space="preserve">
+    <value>Esta pantalla</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="RemoveDisplay" xml:space="preserve">
+    <value>Eliminar pantalla</value>
+  </data>
+  <data name="RemoveLocation" xml:space="preserve">
+    <value>Eliminar ubicación</value>
+  </data>
+  <data name="RenderMode" xml:space="preserve">
+    <value>Modo de renderizado</value>
+  </data>
+  <data name="RenderModeRequired" xml:space="preserve">
+    <value>Modo de renderizado requerido</value>
+  </data>
+  <data name="RenderMode_Crop" xml:space="preserve">
+    <value>Recortar</value>
+  </data>
+  <data name="RenderMode_Fill" xml:space="preserve">
+    <value>Rellenar</value>
+  </data>
+  <data name="RenderMode_Fit" xml:space="preserve">
+    <value>Ajustar</value>
+  </data>
+  <data name="RenderMode_Stretch" xml:space="preserve">
+    <value>Estirar</value>
+  </data>
+  <data name="ReOrderFrames" xml:space="preserve">
+    <value>Reordenar marcos</value>
+  </data>
+  <data name="ReOrderPanelFrames" xml:space="preserve">
+    <value>Reordenar marcos del panel</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="ReportFrameDetails" xml:space="preserve">
+    <value>Detalles del marco del informe</value>
+  </data>
+  <data name="ReportPath" xml:space="preserve">
+    <value>Informe de ruta</value>
+  </data>
+  <data name="ReportPathRequired" xml:space="preserve">
+    <value>Informe de ruta requerido</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="ReportServer" xml:space="preserve">
+    <value>Informe del servidor</value>
+  </data>
+  <data name="ReportServerAccounts" xml:space="preserve">
+    <value>Informe de cuentas del servidor</value>
+  </data>
+  <data name="RequestedResourceDoesNotExist" xml:space="preserve">
+    <value>Recurso solicitado no existe</value>
+  </data>
+  <data name="ResourceNotFound" xml:space="preserve">
+    <value>Recurso no encontrado</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="Sec" xml:space="preserve">
+    <value>seg.</value>
+  </data>
+  <data name="SelectCanvas" xml:space="preserve">
+    <value>Seleccionar Canvas</value>
+  </data>
+  <data name="SelectFrameType" xml:space="preserve">
+    <value>Seleccionar tipo de marco</value>
+  </data>
+  <data name="SelectPanel" xml:space="preserve">
+    <value>Seleccionar panel</value>
+  </data>
+  <data name="SelectRegisteredDisplay" xml:space="preserve">
+    <value>Seleccionar pantalla registrada</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Servidor</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Ajuste</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="Settings_DefaultCacheIntervalOutlook" xml:space="preserve">
+    <value>Caducidad predeterminada de la caché para nuevos marcos de Outlook, minutos</value>
+  </data>
+  <data name="Settings_DefaultCacheIntervalPicture" xml:space="preserve">
+    <value>Default cache expiration for new Picture frames, minutes</value>
+  </data>
+  <data name="Settings_DefaultCacheIntervalReport" xml:space="preserve">
+    <value>Caducidad predeterminada de la caché para nuevos marcos de imágenes, minutos</value>
+  </data>
+  <data name="Settings_DefaultCacheIntervalVideo" xml:space="preserve">
+    <value>Caducidad predeterminada de la caché para nuevos marcos de vídeo, minutos</value>
+  </data>
+  <data name="Settings_DefaultCacheIntervalWeather" xml:space="preserve">
+    <value>Caducidad predeterminada de la caché para nuevos marcos de tiempo, minutos</value>
+  </data>
+  <data name="Settings_DefaultCacheInterval_Descr" xml:space="preserve">
+    <value>Determinados tipos de trama permiten almacenar en caché la información que presentan en el proveedor de caché local de la aplicación DMP con el fin de evitar un tráfico de red excesivo y reducir el tiempo de CPU necesario para renderizar dichas tramas. Esto representa un intervalo de caché por defecto para un determinado tipo de trama cuando se crea una nueva trama. Este valor puede modificarse para cada trama.</value>
+  </data>
+  <data name="Settings_DefaultDisplayErrorLength" xml:space="preserve">
+    <value>Duración predeterminada de los errores de visualización, seg.</value>
+  </data>
+  <data name="Settings_DefaultDisplayErrorLength_Descr" xml:space="preserve">
+    <value>Siempre que se produzcan errores en el contenido del marco, las pantallas mostrarán un cuadro con un mensaje de error y detalles adicionales. Introduzca un número entero positivo para indicar a las pantallas de la aplicación DMP durante cuánto tiempo deben mantener visible el marco de error. Introduzca un valor cero para suprimir los errores en una pantalla. Se trata de un valor predeterminado que puede anularse en pantallas individuales.</value>
+  </data>
+  <data name="Settings_DefaultDisplayPollInterval" xml:space="preserve">
+    <value>Intervalo de sondeo de datos de visualización por defecto, seg.</value>
+  </data>
+  <data name="Settings_DefaultDisplayPollInterval_Descr" xml:space="preserve">
+    <value>Las pantallas sondearán sus ajustes regularmente siguiendo este intervalo de tiempo. Cuando cambien los ajustes, las pantallas se recargarán automáticamente. Introduzca un número entero positivo. Se trata de un valor predeterminado que puede anularse en pantallas individuales.</value>
+  </data>
+  <data name="Settings_DefaultDisplayReadyEventTimeout" xml:space="preserve">
+    <value>Tiempo de espera del evento Frame ready, segundos</value>
+  </data>
+  <data name="Settings_DefaultDisplayReadyEventTimeout_Descr" xml:space="preserve">
+    <value>Ciertos tipos de fotogramas requieren una inicialización adicional antes de completar su proceso de representación en una pantalla. Pueden mostrarse en blanco o presentar un indicador de carga. La aplicación DMP esperará el período de tiempo mencionado y, cuando se supere, dejará el cuadro sin renderizar. Se trata de un valor predeterminado que puede anularse en pantallas individuales.</value>
+  </data>
+  <data name="Settings_DefaultFullPanelFadeLength" xml:space="preserve">
+    <value>Duración predeterminada de la transición del panel a pantalla completa, seg.</value>
+  </data>
+  <data name="Settings_DefaultPanelFadeLength" xml:space="preserve">
+    <value>Duración predeterminada de la transición del panel, seg.</value>
+  </data>
+  <data name="Settings_DefaultPanelFadeLength_Descr" xml:space="preserve">
+    <value>El tiempo de transición entre fotogramas en un panel dado puede aumentarse introduciendo un número decimal positivo. Introduzca un valor cero para un cambio de cuadro instantáneo sin efectos de transición. Se trata de un valor por defecto que puede anularse en paneles individuales.</value>
+  </data>
+  <data name="Settings_DefaultTemplateClock" xml:space="preserve">
+    <value>Plantilla predeterminada para los nuevos marcos del reloj</value>
+  </data>
+  <data name="Settings_DefaultTemplateHtml" xml:space="preserve">
+    <value>Plantilla predeterminada para los nuevos marcos de HTML</value>
+  </data>
+  <data name="Settings_DefaultTemplateMemo" xml:space="preserve">
+    <value>Plantilla predeterminada para los nuevos marcos de Memo</value>
+  </data>
+  <data name="Settings_DefaultTemplateOutlook" xml:space="preserve">
+    <value>Plantilla predeterminada para los nuevos marcos de Outlook</value>
+  </data>
+  <data name="Settings_DefaultTemplatePicture" xml:space="preserve">
+    <value>Plantilla predeterminada para los nuevos marcos de imágenes</value>
+  </data>
+  <data name="Settings_DefaultTemplatePowerbi" xml:space="preserve">
+    <value>Plantilla predeterminada para los nuevos marcos de Power BI</value>
+  </data>
+  <data name="Settings_DefaultTemplateReport" xml:space="preserve">
+    <value>Plantilla predeterminada para los nuevos marcos de informes</value>
+  </data>
+  <data name="Settings_DefaultTemplateVideo" xml:space="preserve">
+    <value>Plantilla predeterminada para los nuevos marcos de vídeo</value>
+  </data>
+  <data name="Settings_DefaultTemplateWeather" xml:space="preserve">
+    <value>Plantilla predeterminada para los nuevos marcos de tiempo</value>
+  </data>
+  <data name="Settings_DefaultTemplateYouTube" xml:space="preserve">
+    <value>Plantilla predeterminada para los nuevos marcos de YouTube</value>
+  </data>
+  <data name="Settings_DefaultTemplate_Descr" xml:space="preserve">
+    <value>Frames use HTML templates to render their content in. This represents a default template for a given type of frame when new frame is created. The value can be overriden for every frame.</value>
+  </data>
+  <data name="Settings_DisplayAutoLoadMode" xml:space="preserve">
+    <value>Modo de resolución automática</value>
+  </data>
+  <data name="Settings_DisplayAutoLoadMode_Descr" xml:space="preserve">
+    <value>Modo de resolución automática de pantallas. Utilice "0" para reconocer las pantallas por nombre de host o dirección IP. Utilice "1" para reconocer las pantallas por la cookie de seguimiento.</value>
+  </data>
+  <data name="Settings_EncryptionIV" xml:space="preserve">
+    <value>Vector de inicialización del cifrado</value>
+  </data>
+  <data name="Settings_EncryptionKey" xml:space="preserve">
+    <value>Clave de cifrado</value>
+  </data>
+  <data name="Settings_EncryptionMode" xml:space="preserve">
+    <value>Modo de cifrado</value>
+  </data>
+  <data name="Settings_EncryptionMode_Descr" xml:space="preserve">
+    <value>Introduzca un valor entero positivo para el modo de cifrado. Utilice "0" para el proveedor de criptomonedas RSA a nivel de máquina. Utilice "1" para el proveedor AES con clave privada almacenada en la base de datos.</value>
+  </data>
+  <data name="Settings_EWSTracingPath" xml:space="preserve">
+    <value>Ruta de rastreo EWS</value>
+  </data>
+  <data name="Settings_EWSTracingPath_Descr" xml:space="preserve">
+    <value>Cuando experimente problemas al registrar cuentas EWS en la aplicación DMM, habilite el seguimiento de comunicaciones EWS introduciendo la ruta de red al archivo que recibirá el registro de eventos. Desactive esta opción para desactivar el seguimiento de EWS.</value>
+  </data>
+  <data name="Settings_Group_Advanced" xml:space="preserve">
+    <value>Ajustes avanzados</value>
+  </data>
+  <data name="Settings_Group_DisplayDefaults" xml:space="preserve">
+    <value>Valores predeterminados de la pantalla</value>
+  </data>
+  <data name="Settings_Group_FrameDefaults" xml:space="preserve">
+    <value>Valores predeterminados del marco</value>
+  </data>
+  <data name="Settings_Group_General" xml:space="preserve">
+    <value>Ajustes generales</value>
+  </data>
+  <data name="Settings_Group_PanelDefaults" xml:space="preserve">
+    <value>Valores predeterminados del panel</value>
+  </data>
+  <data name="Settings_HelpSite" xml:space="preserve">
+    <value>URL del sitio de ayuda</value>
+  </data>
+  <data name="Settings_MaxImageSize" xml:space="preserve">
+    <value>Tamaño máximo de la imagen cargada, Bytes</value>
+  </data>
+  <data name="Settings_MaxVideoSize" xml:space="preserve">
+    <value>Tamaño máximo del vídeo cargado, Bytes</value>
+  </data>
+  <data name="Settings_PresentationSite" xml:space="preserve">
+    <value>URL del sitio de presentación</value>
+  </data>
+  <data name="Settings_PresentationSite_Descr" xml:space="preserve">
+    <value>Utilice esta configuración en los casos en que la aplicación DMP esté instalada en un sitio web distinto al de la aplicación DMM.</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="ShortBody" xml:space="preserve">
+    <value>Mostrar cuerpo</value>
+  </data>
+  <data name="ShowDate" xml:space="preserve">
+    <value>Mostrar fecha</value>
+  </data>
+  <data name="ShowEvents" xml:space="preserve">
+    <value>Mostrar eventos</value>
+  </data>
+  <data name="ShowEventsRequired" xml:space="preserve">
+    <value>Mostrar eventos requerido</value>
+  </data>
+  <data name="ShowSeconds" xml:space="preserve">
+    <value>Mostrar segundos</value>
+  </data>
+  <data name="ShowTime" xml:space="preserve">
+    <value>Mostrar tiempo</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Tamaño</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>- Desde el Área -</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Sujeto</value>
+  </data>
+  <data name="Sublocations" xml:space="preserve">
+    <value>Subdivisiones</value>
+  </data>
+  <data name="SupportedImageFormatsIncludeAllOtherContentWillBeIgnored" xml:space="preserve">
+    <value>Los formatos de imagen admitidos son {0}. Cualquier otro contenido será ignorado.</value>
+  </data>
+  <data name="SupportedMediaFormatsIncludeForImagesAndForVideoAllOtherContentWillBeIgnored" xml:space="preserve">
+    <value>Los formatos multimedia admitidos son {0} para imágenes y {1} para vídeo. Cualquier otro contenido será ignorado.</value>
+  </data>
+  <data name="TemperatureUnit" xml:space="preserve">
+    <value>Unidad de temperatura</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Plantilla</value>
+  </data>
+  <data name="ThisFrameWillShowInAllLocations" xml:space="preserve">
+    <value>Este marco se mostrará en todas las ubicaciones</value>
+  </data>
+  <data name="TimeFormat" xml:space="preserve">
+    <value>Formato de tiempo</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Zona horaria</value>
+  </data>
+  <data name="TimingOption" xml:space="preserve">
+    <value>Opción de temporización</value>
+  </data>
+  <data name="TimingOption_Any" xml:space="preserve">
+    <value>Ninguna</value>
+  </data>
+  <data name="TimingOption_Current" xml:space="preserve">
+    <value>En curso</value>
+  </data>
+  <data name="TimingOption_Expired" xml:space="preserve">
+    <value>Expirado</value>
+  </data>
+  <data name="TimingOption_Pending" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Desconocido</value>
+  </data>
+  <data name="Unlink" xml:space="preserve">
+    <value>Desconectar</value>
+  </data>
+  <data name="UnlinkVideoFramemedia" xml:space="preserve">
+    <value>Desvincular archivos multimedia de marcos de vídeo</value>
+  </data>
+  <data name="UnsupportedFrame" xml:space="preserve">
+    <value>Marco no compatible</value>
+  </data>
+  <data name="UpdateInterval" xml:space="preserve">
+    <value>Intervalo de actualización</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Subir</value>
+  </data>
+  <data name="UploadMedia" xml:space="preserve">
+    <value>Subir archivo multimedia</value>
+  </data>
+  <data name="UploadMediaAlternative" xml:space="preserve">
+    <value>Subir archivos multimedia alternativos</value>
+  </data>
+  <data name="UploadNewMedia" xml:space="preserve">
+    <value>Subir nuevo archivo multimedia</value>
+  </data>
+  <data name="UploadNewPicture" xml:space="preserve">
+    <value>- Subir nueva foto -</value>
+  </data>
+  <data name="UploadNewVideos" xml:space="preserve">
+    <value>- Subir nuevos video(s) -</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="ValueNotSet" xml:space="preserve">
+    <value>&lt;&lt; No establecido &gt;&gt;</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="VideoAlternatives" xml:space="preserve">
+    <value>{0} alternativas de vídeo</value>
+  </data>
+  <data name="VideoFrameDetails" xml:space="preserve">
+    <value>Detalles del marco de vídeo</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+  <data name="ViewApplicationSettings" xml:space="preserve">
+    <value>Ver la configuración de la aplicación</value>
+  </data>
+  <data name="ViewCanvases" xml:space="preserve">
+    <value>Ver lienzos</value>
+  </data>
+  <data name="ViewDisplays" xml:space="preserve">
+    <value>Ver pantallas</value>
+  </data>
+  <data name="ViewFrames" xml:space="preserve">
+    <value>Ver marcos</value>
+  </data>
+  <data name="ViewLevels" xml:space="preserve">
+    <value>Ver niveles</value>
+  </data>
+  <data name="ViewLocations" xml:space="preserve">
+    <value>Ver ubicaciones</value>
+  </data>
+  <data name="ViewPanels" xml:space="preserve">
+    <value>Ver paneles</value>
+  </data>
+  <data name="ViewRequired" xml:space="preserve">
+    <value>Ver es requerido</value>
+  </data>
+  <data name="ViewTemplates" xml:space="preserve">
+    <value>Ver plantillas de marcos</value>
+  </data>
+  <data name="ViewUploadedMedia" xml:space="preserve">
+    <value>Ver archivos multimedia</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="VolumeRangeError" xml:space="preserve">
+    <value>El volumen debe estar entre 0 (silencio) y 100.</value>
+  </data>
+  <data name="VolumeRequired" xml:space="preserve">
+    <value>Se requiere volumen</value>
+  </data>
+  <data name="Weather" xml:space="preserve">
+    <value>clima</value>
+  </data>
+  <data name="WeatherFrameDetails" xml:space="preserve">
+    <value>Detalles del marco meteorológico</value>
+  </data>
+  <data name="WeatherProvider" xml:space="preserve">
+    <value>Proveedor de tiempo</value>
+  </data>
+  <data name="WeatherProviderAccount" xml:space="preserve">
+    <value>Cuenta de proveedor meteorológico</value>
+  </data>
+  <data name="WeatherProviderAccountRequired" xml:space="preserve">
+    <value>Se requiere una cuenta de proveedor meteorológico</value>
+  </data>
+  <data name="WeatherProviderRequired" xml:space="preserve">
+    <value>Se requiere proveedor meteorológico</value>
+  </data>
+  <data name="WeatherProvider_Yahoo" xml:space="preserve">
+    <value>Yahoo</value>
+  </data>
+  <data name="WeatherSelectProvider" xml:space="preserve">
+    <value>- Seleccionar proveedor -</value>
+  </data>
+  <data name="WeatherSelectProviderAccount" xml:space="preserve">
+    <value>- Seleccionar cuenta de proveedor -</value>
+  </data>
+  <data name="WeatherType" xml:space="preserve">
+    <value>Tipo de clima</value>
+  </data>
+  <data name="WeatherTypeRequired" xml:space="preserve">
+    <value>Se requiere el tipo de clima</value>
+  </data>
+  <data name="WeatherType_Current" xml:space="preserve">
+    <value>Condiciones actuales</value>
+  </data>
+  <data name="WeatherType_Week" xml:space="preserve">
+    <value>One week forecast</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Ancho</value>
+  </data>
+  <data name="WithIdCouldNotBeFound" xml:space="preserve">
+    <value>{0} con ID# {1} no se pudo encontrar</value>
+  </data>
+  <data name="YourBrowserDoesntSupportThisMediaTypePleaseUpgradeYourBrowser" xml:space="preserve">
+    <value>Su navegador no es compatible con este tipo de archivos multimedia, actualice su navegador</value>
+  </data>
+  <data name="YouTube" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="YoutubeFrameDetails" xml:space="preserve">
+    <value>Detalles del marco de YouTube</value>
+  </data>
+  <data name="YoutubeId" xml:space="preserve">
+    <value>YouTube ID</value>
+  </data>
+  <data name="YoutubeIdRequired" xml:space="preserve">
+    <value>Se requiere ID o URL de YouTube</value>
+  </data>
+  <data name="YTAspect" xml:space="preserve">
+    <value>Aspecto</value>
+  </data>
+  <data name="YTAspectRequired" xml:space="preserve">
+    <value>Se requiere aspecto automático</value>
+  </data>
+  <data name="YTAspect_16x9" xml:space="preserve">
+    <value>Pantalla ancha (16 : 9)</value>
+  </data>
+  <data name="YTAspect_4x3" xml:space="preserve">
+    <value>TV (4 : 3)</value>
+  </data>
+  <data name="YTAspect_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="YTQuality" xml:space="preserve">
+    <value>Calidad de video</value>
+  </data>
+  <data name="YTQuality_Default" xml:space="preserve">
+    <value>Por defecto</value>
+  </data>
+  <data name="YTQuality_Hd1080" xml:space="preserve">
+    <value>HD 1080, 1920x1080 or 1440x1080</value>
+  </data>
+  <data name="YTQuality_Hd720" xml:space="preserve">
+    <value>HD 720, 1280x720 or 960x720</value>
+  </data>
+  <data name="YTQuality_HiRes" xml:space="preserve">
+    <value>Alta Resolution,1080</value>
+  </data>
+  <data name="YTQuality_Large" xml:space="preserve">
+    <value>Grande, 853x480 o 640x480</value>
+  </data>
+  <data name="YTQuality_Medium" xml:space="preserve">
+    <value>Medio, 640x360 o 480x360</value>
+  </data>
+  <data name="YTQuality_Small" xml:space="preserve">
+    <value>Pequeño, 320x240</value>
+  </data>
+  <data name="YTRate" xml:space="preserve">
+    <value>Velocidad de vídeo</value>
+  </data>
+  <data name="YTRate_Fast" xml:space="preserve">
+    <value>Rápido</value>
+  </data>
+  <data name="YTRate_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="YTRate_Slow" xml:space="preserve">
+    <value>Lento</value>
+  </data>
+  <data name="YTRate_VerySlow" xml:space="preserve">
+    <value>Muy lento</value>
+  </data>
+  <data name="YTStart" xml:space="preserve">
+    <value>Iniciar vídeo en</value>
+  </data>
+  <data name="YTStartRequired" xml:space="preserve">
+    <value>Start video at is required</value>
+  </data>
+  <data name="z" xml:space="preserve">
+    <value>Muy rapido</value>
+  </data>
+</root>
